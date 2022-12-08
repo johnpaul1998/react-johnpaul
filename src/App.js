@@ -3,6 +3,7 @@ import { Counter } from './components/Counter';
 import CounterFour from './components/CounterFour';
 import CounterThree from './components/CounterThree';
 import CounterTwo from './components/CounterTwo';
+import DataFetching from './components/DataFetching';
 import UseEffectMouse from './components/UseEffectMouse';
 import UseEffectMouseContainer from './components/UseEffectMouseContainer';
 import UseEffectOne from './components/UseEffectOne';
@@ -23,6 +24,9 @@ function App() {
       <UseEffectOne/>
       <UseEffectMouse/>
       <UseEffectMouseContainer/>
+      {/* <UseEffectInterval/>  */}
+      {/* Data fetching */}
+      <DataFetching/>
     </div>
   );
 }
