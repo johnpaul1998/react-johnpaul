@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { Counter } from './components/Counter';
+import CounterFour from './components/CounterFour';
+import CounterThree from './components/CounterThree';
+import CounterTwo from './components/CounterTwo';
+import UseEffectMouse from './components/UseEffectMouse';
+import UseEffectMouseContainer from './components/UseEffectMouseContainer';
+import UseEffectOne from './components/UseEffectOne';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* useState hook */}
+      <h1>useState Hook</h1>
+      <Counter/>
+      <CounterTwo/>
+      <CounterThree/>
+      <CounterFour/>
+      <br/>
+      <hr/>
+      {/* useEffect Hook */}
+      <h1>useEffect Hook</h1>
+      <UseEffectOne/>
+      <UseEffectMouse/>
+      <UseEffectMouseContainer/>
     </div>
   );
 }
