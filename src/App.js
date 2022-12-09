@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Main from './components/reactHooks/ReducerAndContext/Main';
+import ParentComponent from './components/reactHooks/useCallback/ParentComponent';
 
 function App() {
 
   return (
     <div className="App">
-     <Main/>
+      <ParentComponent/>
     </div>
   );
 }
